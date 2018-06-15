@@ -1,0 +1,15 @@
+
+ {{#each comments as |comment|}}
+  <div class="row msg_container base_receive">
+        {{#comment-post comment=comment}}{{/comment-post}}
+  </div>
+  {{/each}}
+  
+  <div class="footer">
+      <div class="input-group">
+        {{ input value=newPost id="btn-input" type="text" class="form-control input-sm" placeholder="Write a comment"}}
+        <span class="input-group-btn">
+            <button class="btn btn-primary btn-sm" id="btn-chat" {{action "newPost"}}>Post Comment</button>
+        </span>
+     </div>
+  </div>

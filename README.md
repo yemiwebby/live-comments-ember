@@ -1,56 +1,53 @@
-# live-comments-ember
+# chat-app
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+## Build a live comments application using Ember.js and Pusher
+This project contains the source code for a very simple realtime comment application with sentiment analysis.
+
+Take a look at the image below.
+
+
+![live-comments-ember](https://user-images.githubusercontent.com/19610753/41320089-43624d0a-6e96-11e8-8d61-cf62be502bc5.gif)
+
 
 ## Prerequisites
-
-You will need the following things properly installed on your computer.
+1. You will need the following things properly installed on your computer.
 
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/) (with npm)
 * [Ember CLI](https://ember-cli.com/)
 * [Google Chrome](https://google.com/chrome/)
 
-## Installation
+2. Create a Pusher application - Create a new application on your Pusher Dashboard to get your app credentials.
 
-* `git clone <repository-url>` this repository
-* `cd live-comments-ember`
-* `npm install`
+## Getting Started
 
-## Running / Development
+### Clone the repository
+```bash
+$ git clone https://github.com/yemiwebby/live-comments-ember.git
+```
 
-* `ember serve`
+### Change directory
+```bash
+$ cd live-comments-ember
+```
+
+### Run the application
+```bash
+$ ember serve
+```
+
 * Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
-### Code Generators
+## Built With
 
-Make use of the many generators for code, try `ember help generate` for more details
+* [Emberjs](https://www.emberjs.com/) - A productive frontend framework built for ambitious web developers.
 
-### Running Tests
+* [Pusher](https://pusher.com/) - A Node.js client to interact with the Pusher REST API
 
-* `ember test`
-* `ember test --server`
+* [Sentiment](https://github.com/thisandagain/sentiment)- Sentiment is a module that uses the AFINN-165 wordlist and Emoji Sentiment Ranking to perform sentiment analysis on arbitrary blocks of input text.
 
-### Linting
-
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
 
 ### Building
 
 * `ember build` (development)
 * `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)

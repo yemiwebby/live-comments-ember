@@ -1,0 +1,33 @@
+
+.post .post-heading {
+    height: 95px;
+    padding: 20px 15px;
+  }
+  .post .post-heading .avatar {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-right: 15px;
+  }
+  .post .post-heading .meta .title a {
+    color: black;
+  }
+  .post .post-image .image {
+    width: 100%;
+    height: auto;
+  }
+  .comment-box {
+    padding: 20px;
+    font-size: 18px;
+  }
+  .sample-post {
+    background: #f5f5f5;
+    padding: 20px;
+  }
+  .footer{
+    margin-top: 20px;
+  }
+  .msg_container {
+    border: 1px solid #f5f5f5;
+    margin: 4px 0;
+  }
