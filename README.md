@@ -3,6 +3,8 @@
 ## Build a live comments application using Ember.js and Pusher
 This project contains the source code for a very simple realtime comment application with sentiment analysis.
 
+[View tutorial](https://pusher.com/tutorials/live-comments-emberjs)
+
 Take a look at the image below.
 
 
